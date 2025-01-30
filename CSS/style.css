@@ -1,0 +1,108 @@
+.apropos{
+  background: #f8f9fa;
+}
+
+.h1-size{
+    font-size: 2.5rem;
+}
+.logo{
+    width: 4rem;
+    display: flex;
+    }
+    
+    
+    .style{
+      text-decoration: none;
+      text-transform: none;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .img-fluid :w-25 mb-3{
+        width: 20rem;
+    }
+    .taiile{
+        background:linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../img/Back5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px ;
+        margin-bottom: 5px;
+    }
+    .style img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .clickable-text{
+        color: green;
+        cursor: pointer;
+        transition: color 0.3s ease;
+
+    }
+    .clickable-text:active{
+        color: #6610f2;
+    }
+
+    #mes-services h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+      }
+        .hover-zom{
+        transition: all .5s ease;
+    }
+    .hover-zom:hover img{
+        width: 200px;
+        box-shadow: 0 0 12px rgba(0,0, 0, .3);
+    }
+    .hover-zom:hover{
+       transform: translateY(-10px)
+    }
+      #mes-services .card-title {
+        color: #007bff;
+        font-size: 1.2rem;
+      }
+      #mes-realisations {
+        background:#f8f9fa
+      }
+      #mes-services{
+        background: #f8f9fa;
+
+      }
+      
+      #mes-services .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+      
+      
+    #mes-realisations h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #333;
+    }
+   
+      #mes-realisations .card-title {
+        color: #007bff;
+        font-size: 1.2rem;
+        }
+        .about1 {
+          width: 200rem;
+          height: 17rem;
+        }
+        .temoignages{
+          width: 18rem;
+        }
+        .sage{
+          font-family: "Roboto", serif;
+        }
+     
+   
+      
+      
+@media(max-width:768px){
+    .h1-size{
+        font-size: 2rem;
+    }
+    
+}
